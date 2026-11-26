@@ -1,0 +1,37 @@
+{
+  "name": "token-meter-for-claude-code",
+  "displayName": "Token Meter for Claude Code",
+  "description": "Shows tokens used in the current Claude Code session in the status bar. Unofficial; not affiliated with Anthropic.",
+  "version": "0.0.2",
+  "publisher": "YOUR-PUBLISHER-ID",
+  "license": "MIT",
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [
+    "onStartupFinished"
+  ],
+  "main": "./extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "claudeTokenMeter.pick",
+        "title": "Token Meter: Show Claude Code sessions"
+      }
+    ]
+  },
+  "scripts": {
+    "test": "node test.js",
+    "package": "npx @vscode/vsce package"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pkm3232/token_counter_for_claude.git"
+  },
+  "bugs": {
+    "url": "https://github.com/pkm3232/token_counter_for_claude/issues"
+  }
+}
