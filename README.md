@@ -14,7 +14,17 @@ Each VS Code window tracks its own session, so several windows on different proj
 
 You need [VS Code](https://code.visualstudio.com/) 1.80 or later and Claude Code installed and used at least once.
 
-### Option 1: from a release
+### Option 1: from the VS Code Marketplace (easiest)
+
+In VS Code, open the Extensions view (`Ctrl+Shift+X`), search for **Token Meter for Claude Code** and click **Install**. Or from a terminal:
+
+```
+code --install-extension PappuKumarMahto.token-meter-for-claude-code
+```
+
+Marketplace page: https://marketplace.visualstudio.com/items?itemName=PappuKumarMahto.token-meter-for-claude-code
+
+### Option 2: from a release
 
 1. Download the latest `.vsix` file from the [Releases](https://github.com/pkm3232/token_counter_for_claude/releases) page.
 2. Install it, either:
@@ -25,7 +35,7 @@ You need [VS Code](https://code.visualstudio.com/) 1.80 or later and Claude Code
      ```
 3. Reload any open VS Code windows (`Ctrl+Shift+P` → **Developer: Reload Window**).
 
-### Option 2: build from source
+### Option 3: build from source
 
 Needs [Node.js](https://nodejs.org/) 18 or later.
 

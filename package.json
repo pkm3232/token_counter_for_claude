@@ -3,7 +3,7 @@
   "displayName": "Token Meter for Claude Code",
   "description": "Shows tokens used in the current Claude Code session in the status bar. Unofficial; not affiliated with Anthropic.",
   "version": "0.0.2",
-  "publisher": "YOUR-PUBLISHER-ID",
+  "publisher": "PappuKumarMahto",
   "license": "MIT",
   "engines": {
     "vscode": "^1.80.0"
@@ -33,5 +33,17 @@
   },
   "bugs": {
     "url": "https://github.com/pkm3232/token_counter_for_claude/issues"
+  },
+  "icon": "icon.png",
+  "keywords": [
+    "claude",
+    "claude code",
+    "tokens",
+    "usage",
+    "status bar"
+  ],
+  "galleryBanner": {
+    "color": "#16213E",
+    "theme": "dark"
   }
 }
